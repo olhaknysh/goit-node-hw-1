@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/olhaknysh/goit-node-hw-1/issues"
   },
-  "homepage": "https://github.com/olhaknysh/goit-node-hw-1#readme"
+  "homepage": "https://github.com/olhaknysh/goit-node-hw-1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "commander": "^7.2.0"
+  }
 }
